@@ -1,0 +1,71 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    
+    background-image: linear-gradient(#000000,#16be59);
+
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(229, 237, 239);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#header {
+    background-color: rgb(22, 12, 6);
+    padding: 10px;
+    color: white;
+}
+#heading {
+    font-size: 35px;
+}
+#productTable {
+    border-width: 2px;
+    border-color: rgb(0, 255, 98);
+    padding:30px 30px 30px;
+}
+
+#displayTable {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+#OutputTable{
+    background-color: rgb(8, 94, 45);
+    color:rgb(255, 255, 255);
+}
+#vertical {
+    border-left: 3px solid dimgray;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    text-align: right;
+}
+
+#image {
+    width: 250px;
+}
+
+#newData {
+    border-color: lightslategrey;
+}
+
+.form-group{
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
